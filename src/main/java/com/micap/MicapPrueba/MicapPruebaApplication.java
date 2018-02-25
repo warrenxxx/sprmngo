@@ -19,13 +19,13 @@ import java.util.stream.Stream;
 @SpringBootApplication
 public class MicapPruebaApplication {
 
-	/*
+
 	@Bean
 	CommandLineRunner nombre(AccountDaoImp accountDaoImp){
 		String g[]=new String[3];
-		g[0]="984237481";
-		g[1]="984237482";
-		g[2]="984237483";
+		g[0]="984237484";
+		g[1]="984237485";
+		g[2]="984237486";
 		return args -> {
 			accountDaoImp.accountDao.deleteAll().subscribe(null,null,()->{
 				Stream.of("warren erick jhon roger paul".split(" "))
@@ -34,7 +34,7 @@ public class MicapPruebaApplication {
 			});
 		};
 	}
-*/
+
 
 	public static void main(String[] args) {
 		SpringApplication.run(MicapPruebaApplication.class, args);
